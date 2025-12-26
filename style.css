@@ -401,71 +401,73 @@ footer {
     padding: 0;
   }
   /* --- DEPOIMENTOS (ESTILO SAGE) --- */
-.testimonials-section {
+  .testimonials-section {
     padding: 6rem 0;
-    background: var(--white); /* Fundo branco para contrastar com o creme dos cards */
-}
+    background: var(
+      --white
+    ); /* Fundo branco para contrastar com o creme dos cards */
+  }
 
-.testimonials-grid {
+  .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
     margin-top: 3rem;
-}
+  }
 
-.testimonial-card {
+  .testimonial-card {
     background: var(--bg-cream); /* Fundo Creme */
     padding: 3rem 2rem;
     border-radius: 20px;
     position: relative;
     border: 1px solid rgba(134, 150, 104, 0.1); /* Borda verde bem suave */
     transition: 0.3s;
-}
+  }
 
-.testimonial-card:hover {
+  .testimonial-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-soft);
     border-color: var(--primary);
-}
+  }
 
-.quote-icon {
+  .quote-icon {
     font-size: 2rem;
     color: var(--primary);
     opacity: 0.3;
     margin-bottom: 1.5rem;
-}
+  }
 
-.testimonial-card p {
+  .testimonial-card p {
     font-family: var(--font-heading); /* Fonte elegante para o texto */
     font-style: italic;
     font-size: 1.15rem;
     color: var(--text-dark);
     line-height: 1.6;
     margin-bottom: 2rem;
-}
+  }
 
-.client-info {
-    border-top: 1px solid rgba(0,0,0,0.05);
+  .client-info {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
     padding-top: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+  }
 
-.stars {
-    color: #D4C4A6; /* Aquele dourado sutil da paleta */
+  .stars {
+    color: #d4c4a6; /* Aquele dourado sutil da paleta */
     letter-spacing: 2px;
     font-size: 0.9rem;
-}
+  }
 
-.client-name {
+  .client-name {
     font-weight: 700;
     color: var(--primary-dark);
     font-family: var(--font-body);
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
+  }
 
   /* ESTA É A PARTE CORRIGIDA */
   .nav-links.active {
